@@ -1,0 +1,29 @@
+Lab 5 - Activity 1: Algorithm Detectives
+
+A. Binary search for 42 in {5, 11, 18, 26, 42, 57, 63}
+
+Step 1: low = 0, high = 6, mid = 3, value = 26
+42 is larger than 26, so low becomes 4.
+
+Step 2: low = 4, high = 6, mid = 5, value = 57
+42 is smaller than 57, so high becomes 4.
+
+Step 3: low = 4, high = 4, mid = 4, value = 42
+Target found.
+
+Final index of 42: 4
+
+B. Sorting traces for {9, 4, 6, 2, 8}
+
+Insertion Sort
+After iteration 1: 4 9 6 2 8
+After iteration 2: 4 6 9 2 8
+
+Bubble Sort
+After pass 1: 4 6 2 8 9
+After pass 2: 4 2 6 8 9
+
+Merge Sort
+After first division: {9, 4, 6} and {2, 8}
+After second division: {9, 4}, {6}, {2}, {8}
+First merge: {9} and {4} -> {4, 9}
